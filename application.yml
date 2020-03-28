@@ -1,3 +1,4 @@
+  
 spring:
   profiles:
     active:
@@ -17,4 +18,3 @@ spring:
       name: microservicecloud-config-bjc-test
 
 ## 文件保存以UTF-8的形式保存
-
