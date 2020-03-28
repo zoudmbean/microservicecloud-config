@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+
+spring:
+  profiles: dev    ###  开发环境
+  application:
+    name: microservicecloud-config-bjc-dev
+---
+
+spring:
+  profiles: test    ### 测试环境
+  application:
+      name: microservicecloud-config-bjc-test
+
+## 文件保存以UTF-8的形式保存
+
